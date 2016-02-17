@@ -1,0 +1,9 @@
+---
+applications:
+- name: spring-music-v2
+  memory: 512M
+  instances: 2
+  host: smusic-v2
+  path: build/libs/spring-music.war
+  services:
+  - database
