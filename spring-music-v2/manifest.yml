@@ -3,7 +3,7 @@ applications:
 - name: spring-music-v2
   memory: 512M
   instances: 2
-  host: smusic-v2
+  host: smusic-v2-XX #replace XX with initials to make the route unique
   path: build/libs/spring-music.war
   services:
   - database
